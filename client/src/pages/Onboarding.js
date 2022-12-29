@@ -91,7 +91,7 @@ const Onboarding = () => {
                 value="man"
                 id="man-gender-identity"
                 onChange={handleChange}
-                checked={formData.gender_identity === "man"}
+                checked={true}
               />
               <label htmlFor="man-gender-identity">Man</label>
               <input
